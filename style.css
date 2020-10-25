@@ -92,8 +92,8 @@ body {
         width: 90%;
         justify-content: center;
         text-align: center;
-        margin: 0 auto;
-    }
+        /* margin: 0 auto; */
+        
 
  /* Portfolio placeholder images margin at 768px media query */
     #placeholder-img {
@@ -109,7 +109,9 @@ body {
         width: 100%;
         justify-content: center;
         text-align: center;
-        margin: 0 auto;
+        margin: 15px;
+    }
+        
     }
 
 /* Portfolio placeholder images margin at 400px media query */
