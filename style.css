@@ -22,12 +22,15 @@ body {
 /* Inner container */
 .container {
     background-color: rgb(245, 245, 245);
-    margin-top: 70px;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
     /* Typography */
     font-family: 'Merriweather', serif;
+    font-size: 12px;
 
 }
 
+/* Contact text */
 #title {
     /* Box-model */
     font-size: 30px;
@@ -36,7 +39,7 @@ body {
     margin-top: 1vw;
     margin-bottom: 1vw;
 }
-
+/* Border of input section in contact form */
 .boxed {
     /* Border Radius to round edges */
     border-radius: 5px;
@@ -47,8 +50,8 @@ body {
     width: 83.33%;
 }
 
+/* About me picture */
 #img-pic {
-    /* Portfolio about me picture */
     float: left;
     margin-right: 2vw;
 }
@@ -72,6 +75,7 @@ body {
     
 }
 
+/* sticky */
 .footer {
     position: fixed;
     left: 0;
@@ -110,7 +114,7 @@ body {
 
 /* Portfolio placeholder images margin at 400px media query */
     #placeholder-img {
-        width: 100%;  
+        width: 100;  
         justify-content: center;
     
         
