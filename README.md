@@ -7,7 +7,7 @@ My portfolio features my previous projects. The projects vary in content but the
 ## User Story
 
 ```
-AS AN employer seeking a candidate  
+AS AN employer seeking a potential candidate  
 I WANT to be provided with the contact information, existing projects, and some information about the candidate’s background
 SO THAT the I can make an informed decision 
 ```
