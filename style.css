@@ -1,25 +1,31 @@
 /* Background image & Typography */
+
 body {
     background-image: url(https://jessicaroots.com/wp-content/uploads/2018/03/portfolio-background-header.jpg);
     font-family: 'Merriweather', serif;
 }
 
 /* Janneth Verduzco header bold text */
+
 .navbar-brand {
     font-weight: 700;
+    font-family: 'Merriweather', serif;
 }
 
 /* Outter container margin */
+
 .main-container {
     margin-left: 8vw;
 }
 
 /* Outter container width*/
+
 #center-main {
     width: 100%;
 }
 
 /* Inner container */
+
 .container {
     background-color: rgb(245, 245, 245);
     margin-top: 5vw;
@@ -30,19 +36,37 @@ body {
 }
 
 /* 'Lets Connect' side bar box-model */
+
 .my-contact-container {
-    background-color:white;
-    margin-top:5vw;
-    height:50%;
-    margin-left:5%;
+    background-color: white;
+    margin-top: 5vw;
+    height: 50%;
+    margin-left: 5%;
     border-radius: 3px;
-    padding:5px;
+    padding: 5px;
     font-family: 'Merriweather', serif;
-    box-shadow: 5px 5px rgb(71, 66, 71);
-    
+    box-shadow: 5px 5px rgb(104, 1, 104);
+}
+
+/* 'Lets Connect' email and phone */
+
+.contact-info {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+/* 'Lets Connect' side bar title */
+
+h4 {
+    width: 100%;
+    background-color: rgb(104, 1, 104);
+    color: white;
+    text-align: center;
 }
 
 /* containers main title (Contact, Portfolio, About */
+
 #title {
     /* Box-model */
     font-size: 30px;
@@ -52,15 +76,8 @@ body {
     margin-bottom: 1vw;
 }
 
-/* 'Lets Connect' side bar title */
-h4 {
-    width: 100%;
-    background-color: rgb(104, 1, 104);
-    color: white;
-    text-align: center;
-}
-
 /* Border of input section in contact form */
+
 .boxed {
     /* Border Radius to round edges */
     border-radius: 5px;
@@ -72,28 +89,33 @@ h4 {
 }
 
 /* About me picture */
+
 #img-pic {
     float: left;
     margin-right: 2vw;
 }
 
 /* Contact form message box height */
+
 #msgbx {
     height: 85px;
 }
 
 /* gets rid of the bullet points in <li> from contact form */
-ul ,li {
+
+ul, li {
     padding: 5px;
     list-style-type: none;
 }
 
 /* Contact container li's (Name, Email, Message) title margin */
+
 .input-title {
- margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 /* textarea style in contact form */
+
 textarea {
     height: 32px;
     width: 90%;
@@ -103,12 +125,14 @@ textarea {
 }
 
 /* contact form message box height */
+
 .contact-message-textarea {
     height: 90px;
     width: 90%;
 }
 
 /* Contact form submit buttom */
+
 .submit-btn {
     background-color: rgb(15, 156, 156);
     border: 1px solid rgb(136, 122, 122);
@@ -117,16 +141,30 @@ textarea {
     margin-bottom: 18px;
 }
 
+/* portfolio project title styling */
+
+.project-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
 /* Portfolio placeholder images margin */
+
 #placeholder-img {
     margin: .87vw;
 }
+
+/* 'Lets Connect' social links */
+
 .project-link {
-    font-weight:800;
-    color:rgb(104, 1, 104);
+    font-weight: 800;
+    color: rgb(104, 1, 104);
     text-decoration: underline;
 }
+
 /* sticky footer */
+
 footer {
     display: flex;
     min-height: 7vh;
@@ -137,6 +175,7 @@ footer {
 }
 
 /* Outter container at 768px media query */
+
 @media screen and (max-width:768px) {
     .main-container {
         width: 90%;
@@ -152,6 +191,7 @@ footer {
 }
 
 /* Outter container at 400px media query */
+
 @media screen and (max-width:400px) {
     .main-container {
         width: 100%;
