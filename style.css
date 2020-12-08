@@ -148,18 +148,10 @@ textarea {
     margin-bottom: 18px;
 }
 
-/* portfolio project title styling */
-
-.project-title {
-    text-align: center;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-/* Portfolio placeholder images margin */
 
 #placeholder-img {
-    margin: .87vw;
+    text-align: center;
+    margin-left: 70px;
 }
 
 /* 'Lets Connect' social links */
