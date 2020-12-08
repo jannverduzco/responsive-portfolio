@@ -53,7 +53,7 @@ body {
 .contact-info {
     font-size: 14px;
     font-weight: 600;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 /* 'Lets Connect' side bar title */
@@ -63,6 +63,11 @@ h4 {
     background-color: rgb(104, 1, 104);
     color: white;
     text-align: center;
+}
+
+/* 'Lets Connect' icon styling */
+.icons {
+    padding: 20px;
 }
 
 /* containers main title (Contact, Portfolio, About */
