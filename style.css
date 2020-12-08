@@ -1,3 +1,4 @@
+
 /* Background image & Typography */
 
 body {
@@ -16,6 +17,7 @@ body {
 
 .main-container {
     margin-left: 8vw;
+    margin-bottom: 20vh;
 }
 
 /* Outter container width*/
@@ -172,11 +174,12 @@ textarea {
 
 footer {
     display: flex;
-    min-height: 7vh;
+    min-height: 5vh;
     flex-direction: column;
     background-color: rgb(104, 1, 104);
     color: white;
     text-align: center;
+    bottom: 0;
 }
 
 /* Outter container at 768px media query */
