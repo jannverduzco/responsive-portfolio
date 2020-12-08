@@ -38,6 +38,7 @@ body {
     border-radius: 3px;
     padding:5px;
     font-family: 'Merriweather', serif;
+    box-shadow: 5px 5px rgb(71, 66, 71);
     
 }
 
@@ -120,7 +121,11 @@ textarea {
 #placeholder-img {
     margin: .87vw;
 }
-
+.project-link {
+    font-weight:800;
+    color:rgb(104, 1, 104);
+    text-decoration: underline;
+}
 /* sticky footer */
 footer {
     display: flex;
